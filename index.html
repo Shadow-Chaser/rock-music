@@ -46,14 +46,17 @@
             <div class="search-bar col-md-6 mx-auto">
                 <h1 class="text-center">Hard Rock Lyric Search</h1>
                 <div class="search-box my-5">
-                    <input id="search-field" type="text" class="form-control" placeholder="Enter your artist song name">
+                    <input id="search-field" type="text" class="form-control" placeholder="Enter artist name or song name">
                     <button onclick="searchSongs()" class="btn btn-success search-btn">Search</button>
                 </div>
             </div>
 
             <!-- Single Lyrics -->
-            <div class="single-lyrics text-center">
-                
+
+            <h3 id="error-message" class="text-danger text-center" ></h3>
+
+            <div id="song-lyrics" class="single-lyrics text-center single-result  my-3 p-3">
+    
             </div>
             <div id="song-container" class="search-result col-md-8 mx-auto py-4">
                
